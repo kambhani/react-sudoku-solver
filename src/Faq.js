@@ -76,7 +76,7 @@ const Faq = ({view, handleAccordionClick}) => {
                 <p className="float-right font-black">+</p>
               </button>
               <div className="overflow-hidden px-2" style={{height: "0", transition: "height 0.4s"}}>
-                <p className="px-4 py-3 text-justify">Of course! This website is free and open source. Access the source code <a className="text-blue-700" href="#">here</a>.</p>
+                <p className="px-4 py-3 text-justify">Of course! This website is free and open source. Access the source code <a className="text-blue-700" href="https://github.com/kambhani/react-sudoku-solver/">here</a>.</p>
               </div>
             </div>
             <div className="border border-black dark:border-gray-200 mx-auto w-full lg:w-3/4">
@@ -85,7 +85,7 @@ const Faq = ({view, handleAccordionClick}) => {
                 <p className="float-right font-black">+</p>
               </button>
               <div className="overflow-hidden px-2" style={{height: "0", transition: "height 0.4s"}}>
-                <p className="px-4 py-3 text-justify">Sharing this application with others is a great way to increase this application's visibility. This will help the application grow. In addition, sharing is easy — anyone can do it. You can also submit a pull request on our <a className="text-blue-700" href="#">GitHub repository</a>. Some areas where we are looking to improve are the message board styling, sudoku solving algorithm, and general code organization.</p>
+                <p className="px-4 py-3 text-justify">Sharing this application with others is a great way to increase this application's visibility. This will help the application grow. In addition, sharing is easy — anyone can do it. You can also submit a pull request on our <a className="text-blue-700" href="https://github.com/kambhani/react-sudoku-solver/">GitHub repository</a>. Some areas where we are looking to improve are the message board styling, sudoku solving algorithm, and general code organization.</p>
               </div>
             </div>
             <div className="border-b border-l border-r border-black dark:border-gray-200 mx-auto w-full lg:w-3/4">
@@ -94,7 +94,7 @@ const Faq = ({view, handleAccordionClick}) => {
                 <p className="float-right font-black">+</p>
               </button>
               <div className="overflow-hidden px-2" style={{height: "0", transition: "height 0.4s"}}>
-                <p className="px-4 py-3 text-justify">You can contact us at [INSERT CONTACT INFO HERE]</p>
+                <p className="px-4 py-3 text-justify">You can fill out <a className="text-blue-700" href="https://forms.gle/45By492ar4gpDpFi9">this form</a>.</p>
               </div>
             </div>
           </div>

@@ -1,3 +1,5 @@
 // To change Firefox from light or dark mode, follow the instructions here: https://www.askvg.com/tip-force-mozilla-firefox-to-always-use-dark-or-light-theme-mode/
 
 - make message board look better?
+- imporve sudoku solving algorithm
+- improve code organization

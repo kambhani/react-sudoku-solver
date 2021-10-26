@@ -15,7 +15,7 @@ const About = ({view}) => {
           <ul className="list-disc list-inside">
             <li className="font-thin">Wikipedia offers some great articles about <a className="text-blue-700" href="https://en.wikipedia.org/wiki/Sudoku">sudokus</a> and <a className="text-blue-700" href="https://en.wikipedia.org/wiki/Sudoku_solving_algorithms">sudoku solving algorithms</a></li>
             <li className="font-thin">Some places where you can find free online sudokus to try yourself or plug into this solver are <a className="text-blue-700" href="https://sudoku.com/">Sudoku.com</a>, <a className="text-blue-700" href="https://websudoku.com/">Web Sudoku</a>, and <a className="text-blue-700" href="https://www.247sudoku.com/">24-7 Sudoku</a></li>
-            <li className="font-thin">You can find the source code for this application <a className="text-blue-700" href="#">here</a></li>
+            <li className="font-thin">You can find the source code for this application <a className="text-blue-700" href="https://github.com/kambhani/react-sudoku-solver/">here</a></li>
           </ul>
           <p></p>
         </div>
