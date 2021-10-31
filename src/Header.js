@@ -5,7 +5,7 @@ const Header = ({handleSettingClick}) => {
     <header className="sticky flex justify-between items-center top-0 w-full px-4 py-3 text-gray-900 bg-indigo-400 dark:text-gray-100 dark:bg-indigo-900">
       <div className="flex">
 
-        <img class="w-8 h-8 lg:w-11 lg:h-11" src="./logo_original.png" alt="Website logo"/>
+        <img className="w-8 h-8 lg:w-11 lg:h-11" src="./logo_original.png" alt="Website logo"/>
         <span className="text-2xl lg:text-4xl ml-3 lg:ml-4">Sudoku Central</span>
       </div>
       <button className="rounded-full w-9 lg:w-12 h-9 lg:h-12 flex justify-center items-center bg-black dark:bg-gray-200 text-gray-200 dark:text-black" onClick={handleSettingClick}>

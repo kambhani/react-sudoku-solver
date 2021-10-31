@@ -7,7 +7,7 @@ const Solver = ({view, gridSize, gridValues, updateCellValue, solveSudoku, chang
       <div className="col-span-12 md:col-span-8">
         {
           gridData['' + gridSize].borders.map((row, rowIndex) => (
-            <div className="flex justify-center">
+            <div className="flex justify-center" key={'row_' + rowIndex}>
               {
                 row.map((cell, columnIndex) => (
                   <input
@@ -16,6 +16,7 @@ const Solver = ({view, gridSize, gridValues, updateCellValue, solveSudoku, chang
                     maxLength='1'
                     value={gridValues[rowIndex][columnIndex]}
                     onChange={(event) => updateCellValue(rowIndex, columnIndex, event.target.value)}
+                    key={'row_' + rowIndex + 'column_' + columnIndex}
                   />
                 ))
               }
