@@ -10,7 +10,7 @@ const Footer = ({setView}) => {
           <p className="leading-4 cursor-pointer sm:my-1 hover:text-gray-400" tabIndex="0" onClick={() => setView('faq')}>FAQ</p>
         </div>
         <hr className="hidden w-full my-1.5 sm:block"/>
-        <p className="col-span-7 italic text-sm font-semibold text-justify md:text-center">A 100% open source project, dedicated to all those who love the art of sudoku.</p>
+        <p className="col-span-7 italic text-sm font-semibold text-justify md:text-center">A 100% open source project by Anish Kambhampati, dedicated to all those who love the art of sudoku.</p>
       </div>
     </footer>
   )

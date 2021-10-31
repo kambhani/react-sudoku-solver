@@ -4,10 +4,8 @@ const Header = ({handleSettingClick}) => {
   return (
     <header className="sticky flex justify-between items-center top-0 w-full px-4 py-3 text-gray-900 bg-indigo-400 dark:text-gray-100 dark:bg-indigo-900">
       <div className="flex">
-        {/*SVG based on Bootstrap Icons which is licensed MIT: https://icons.getbootstrap.com/icons/columns-gap/*/}
-        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 lg:w-11 lg:h-11" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
-        </svg>
+
+        <img class="w-8 h-8 lg:w-11 lg:h-11" src="./logo_original.png" alt="Website logo"/>
         <span className="text-2xl lg:text-4xl ml-3 lg:ml-4">Sudoku Central</span>
       </div>
       <button className="rounded-full w-9 lg:w-12 h-9 lg:h-12 flex justify-center items-center bg-black dark:bg-gray-200 text-gray-200 dark:text-black" onClick={handleSettingClick}>
